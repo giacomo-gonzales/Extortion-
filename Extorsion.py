@@ -55,8 +55,8 @@ if fase_seleccionada == "Fase 1: Entendimiento del Negocio":
     import os
     carpeta_actual = os.path.dirname(__file__) if "__file__" in locals() else os.getcwd()
     
-    ruta_arbol = os.path.join(carpeta_actual, "Bodegas", "arbol_problemas.png")
-    ruta_soluciones = os.path.join(carpeta_actual, "Bodegas", "arbol_soluciones.png")
+    ruta_arbol = os.path.join(carpeta_actual, "ÁRBOL DEL PROBLEMA.jpeg")
+    ruta_soluciones = os.path.join(carpeta_actual, "ÁRBOL DE SOLUCIONES.jpeg")
     
     col1, col2 = st.columns([1, 1])
     
