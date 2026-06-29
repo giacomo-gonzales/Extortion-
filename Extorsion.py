@@ -47,7 +47,7 @@ st.sidebar.markdown("---")
 st.sidebar.info("💡 **Dato:** Puedes cambiar de fase en cualquier momento para ver el progreso del ciclo.")
 
 # =====================================================================
-# FASE 1: ENTENDIMIENTO DEL NEGOCIO
+# FASE 1: ENTENDIMIENTO DEL NEGOCIO (BUSINESS UNDERSTANDING)
 # =====================================================================
 if fase_seleccionada == "Fase 1: Entendimiento del Negocio":
     st.markdown('<p class="phase-header">Fase 1: Entendimiento del Negocio (Business Understanding)</p>', unsafe_allow_html=True)
@@ -83,7 +83,7 @@ if fase_seleccionada == "Fase 1: Entendimiento del Negocio":
 # FASE 2: ENTENDIMIENTO DE LOS DATOS (DATA UNDERSTANDING)
 # =====================================================================
 elif fase_seleccionada == "Fase 2: Entendimiento de los Datos":
-    st.markdown('<p class="phase-header">Fase 2: Entendimiento de los Datos</p>', unsafe_allow_html=True)
+    st.markdown('<p class="phase-header">Fase 2: Entendimiento de los Datos (Data Understanding)</p>', unsafe_allow_html=True)
     
     st.write("Auditoría técnica de las fuentes de información que alimentan el sistema de detección.")
 
@@ -114,7 +114,7 @@ elif fase_seleccionada == "Fase 2: Entendimiento de los Datos":
 
     st.success("✅ **Comprensión Completa:** La arquitectura de datos es robusta y cubre todos los pilares identificados (laboral, judicial, social, digital).")
 # =====================================================================
-# FASE 3: PREPARACIÓN DE LOS DATOS
+# FASE 3: PREPARACIÓN DE LOS DATOS (DATA PREPARATION)
 # =====================================================================
 elif fase_seleccionada == "Fase 3: Preparación de los Datos":
     st.markdown('<p class="phase-header">Fase 3: Preparación de los Datos (Data Preparation)</p>', unsafe_allow_html=True)
@@ -912,7 +912,7 @@ elif fase_seleccionada == "Fase 3: Preparación de los Datos":
         st.success(f"⚙️ **Pipeline de Datos completado:** {len(df_redes)} indicadores de identificación de víctimas integrados correctamente.")
 
 # =====================================================================
-# FASE 4: MODELADO 
+# FASE 4: MODELADO (MODELING)
 # =====================================================================
 elif fase_seleccionada == "Fase 4: Modelado":
     st.markdown('<p class="phase-header">Fase 4: Modelado (Modeling)</p>', unsafe_allow_html=True)
@@ -986,7 +986,7 @@ elif fase_seleccionada == "Fase 4: Modelado":
     st.bar_chart(df_imp)
 
 # =====================================================================
-# FASE 5: EVALUACIÓN 
+# FASE 5: EVALUACIÓN (EVALUATION)
 # =====================================================================
 elif fase_seleccionada == "Fase 5: Evaluación (Power BI)":
     st.markdown('<p class="phase-header">Fase 5: Evaluación (Evaluation)</p>', unsafe_allow_html=True)
@@ -1025,7 +1025,7 @@ elif fase_seleccionada == "Fase 5: Evaluación (Power BI)":
     st.info("💡 **Consejo:** El dashboard permite interactuar con los mapas de calor. Se recomienda contrastar los picos de llamadas con los puntos calientes de extorsión identificados.")
 
 # =====================================================================
-# FASE 6: DESPLIEGUE 
+# FASE 6: DESPLIEGUE (DEPLOYMENT)
 # =====================================================================
 elif fase_seleccionada == "Fase 6: Despliegue":
     st.markdown('<p class="phase-header">Fase 6: Despliegue (Deployment)</p>', unsafe_allow_html=True)
